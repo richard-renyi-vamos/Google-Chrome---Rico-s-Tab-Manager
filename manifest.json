@@ -3,7 +3,10 @@
   "name": "Active Tabs List",
   "version": "1.0",
   "description": "Displays a list of active tabs.",
-  "permissions": ["tabs"],
+  "permissions": [
+    "tabs",
+    "activeTab"
+  ],
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
